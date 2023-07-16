@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = '76ec9f3bd9caeda86a2c0d78639364427639d85210913188c45b57935d473282'
+API_KEY = '<your api key>'
 
 def check_ioc_reputation(ioc):
     url = f'https://www.virustotal.com/api/v3/files/{ioc}'
